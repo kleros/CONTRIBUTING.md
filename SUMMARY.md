@@ -14,6 +14,7 @@
 * [Task Tracking & Lifecycle](smart-contract-workflow/contributing.md)
 * [RAB - Review, Audit, Bounty](smart-contract-workflow/reviews-and-bug-bounties.md)
 * [RABd \(+ Deploy\)](smart-contract-workflow/deploying.md)
+* [Reporting Vulnerabilities](smart-contract-workflow/reporting-vulnerabilities.md)
 
 ## Code Style & Guidelines
 
