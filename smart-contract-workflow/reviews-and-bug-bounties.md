@@ -91,7 +91,7 @@ The flow for a full review is the same as the one for a pre-review, with the fol
 Reviews are only the first step in securing a contract. A contract should not be deemed production ready at this point. Internal reviews are riddled with inherent drawbacks and a third party audit and bug bounty should always back them up.
 {% endhint %}
 
-## Audit
+## Audit \(Optional\)
 
 Internal reviews have many inherent drawbacks. Third party audits address the following ones and more:
 
