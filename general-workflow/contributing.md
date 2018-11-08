@@ -1,7 +1,3 @@
----
-description: Our methodology for keeping track of development work.
----
-
 # Task Tracking & Lifecycle
 
 ## All in Github

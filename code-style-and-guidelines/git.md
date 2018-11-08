@@ -1,7 +1,3 @@
----
-description: Controlling version control.
----
-
 # Git
 
 We use Git for version control and use [Conventional Commits](https://www.conventionalcommits.org) for branch names and commit messages to enforce consistency and enjoy automatic changelog generation.
