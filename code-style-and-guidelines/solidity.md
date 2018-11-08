@@ -41,7 +41,6 @@ Mark unsecured functions or functions that are not finished yet with "TODO." at 
 A lot of these apply to software in general.
 
 * Do not use magic numbers or values, define a constant or enum.
-* If you write the same code more than twice, you need to factorize it.
 * If you need special testing functions that expose functionality not intended for production, inherit the contract from a test contract, rather than adding the testing functions to the original contract.
 
 ### Mindset
