@@ -53,7 +53,7 @@ Abstractions can be made to make front end developers' lives easier. Our [archon
 
 This and the security risks of smart contracts that interact with other smart contracts with complex and stateful interdependencies requires that we take a unique approach and mindset when developing smart contracts. Here are some general guidelines:
 
-* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**:
+* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**: 
 
   * Verify that the call is authorized. Modifiers can be used for this.
   * Execute state changes.
@@ -69,4 +69,6 @@ This and the security risks of smart contracts that interact with other smart co
   * Gas: Lower the gas usage to save on TX fees.
   * Convincibility: Write code that allows other parties to be easily convinced that it works. Remember that more time is spent in reviews/audits/bug bounties than in actually writing the code.
   * Reusability: Write code that is generic enough to avoid starting from scratch every time.
+
+
 

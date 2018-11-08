@@ -1,3 +1,7 @@
+---
+description: When you find something wrong with a contract.
+---
+
 # Reporting Vulnerabilities
 
 ## Contact Us
