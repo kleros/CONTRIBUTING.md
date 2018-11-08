@@ -64,6 +64,11 @@ This and the security risks of smart contracts that interact with other smart co
 * Be aware of gas consumption. Smart contracts differ to traditional software where you can "Get it correct the first time, fast the second.", being slow in a smart contract is being incorrect. Out of gas transactions fail and high TX fees can place a huge burden on users.
 * Be OK with **"doing 0"**. A function that sends 0 tokens, gives a penalty of 0%, and/or can't be called again unless 0 seconds pass is fine. Smart contracts should have the minimum amount of code possible and this ties into the next point.
 * Don't protect the user from himself. Client execution is almost free, but smart contract execution isn't, so **limit smart contracts to blocking malicious behavior** and **let clients prevent the stupid ones**.
+* As a general rule, the priorities should be in this order:
+  * Security: Prevent vulnerabilities, unexpected behaviour and reduce the impact of those which could arise.
+  * Gas: Lower the gas usage to save on TX fees.
+  * Convincibility: Write some code which allows other parties to be easily convinced that the code works. Remember that more time is spent in reviews/audits/bug bounties than in actually writing the code.
+  * Reusability: Write some code which is generic enough to avoid starting from scratch everytime. This falls last in the priority list.
 
 
 
