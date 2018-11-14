@@ -1,7 +1,3 @@
----
-description: 'MIT, period.'
----
-
 # License
 
 ## MIT, for All

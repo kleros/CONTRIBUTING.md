@@ -1,7 +1,3 @@
----
-description: How we handle the ever changing suite of tools and frameworks.
----
-
 # Web Languages
 
 ## Long Live the Web
