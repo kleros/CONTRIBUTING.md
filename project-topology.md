@@ -1,3 +1,7 @@
+---
+description: A brief overview of our main repos and current goals in case you feel lost.
+---
+
 # Project Topology
 
 ## Main Repos

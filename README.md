@@ -1,3 +1,9 @@
+---
+description: >-
+  Welcome to the "centralized" contributing guide for all software pertaining to
+  Kleros.
+---
+
 # Introduction
 
 ## CONTRIBUTING.md?

@@ -1,3 +1,7 @@
+---
+description: Linting and formatting scripts for multiple types of projects.
+---
+
 # Kathari
 
 ## Making Everyone's Life Easier

@@ -1,3 +1,7 @@
+---
+description: We foster an open and welcoming environment.
+---
+
 # Code of Conduct
 
 ## Be Decent

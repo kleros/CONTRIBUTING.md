@@ -1,3 +1,10 @@
+---
+description: >-
+  The margin of error in smart contract development is almost non-existent, due
+  to the value of their transactions. This is how we make sure our contracts are
+  airtight, to the best of our abilities.
+---
+
 # RAB - Review, Audit, Bounty
 
 ## Review Classifiers

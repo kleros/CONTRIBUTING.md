@@ -53,7 +53,7 @@ Abstractions can be made to make front end developers' lives easier. Our [archon
 
 This and the security risks of smart contracts that interact with other smart contracts with complex and stateful interdependencies requires that we take a unique approach and mindset when developing smart contracts. Here are some general guidelines:
 
-* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**:
+* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**: 
 
   * Verify that the call is authorized. Modifiers can be used for this.
   * Execute state changes.
@@ -71,7 +71,7 @@ This and the security risks of smart contracts that interact with other smart co
   * **Reusability**: Write code that is generic enough to avoid starting from scratch every time. This should not hinder the 3 previous priorities.
 * Do not **over-engineer**. Over-engineering lowers security, increases gas costs, and decreases convincibility. [Kiss](https://en.wikipedia.org/wiki/KISS_principle) ♥.
 * Smart contracts should only do what is **required, no more, no less**. Do not abstract contracts into more generic contracts if the deployed version will only use a subset of the functionality. E.g. if you can only have 2 parties in your contract, only write code for 2 parties. Do not write code supporting an arbitrary number of parties and then set it to 2 at deployment. This is a stark contrast to traditional software where generic abstractions can save time in the long run. In smart contract development, there is no continuous deployments and the additional time spent in security practices that a generic contract requires far outweighs the potential benefit of its reusability.
-* However, **abstraction** can be useful when contracts need to interact with contracts which are **not known in advance**, either because they won't be finished by the time of deployment or because they will be developed by other projects you don't have control over. [ERC20](https://github.com/ethereum/EIPs/issues/20) and [ERC792](https://github.com/ethereum/EIPs/issues/792) are good examples of this.
+* However, **abstraction** can be useful when contracts need to interact with contracts which are **not known in advance**, either because they won't be finished by the time of deployment or because they will be developed by other projects you don't have control over. [**ERC20**](https://github.com/ethereum/EIPs/issues/20) and [**ERC792**](https://github.com/ethereum/EIPs/issues/792) are good examples of this.
 
 
 

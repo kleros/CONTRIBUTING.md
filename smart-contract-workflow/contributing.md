@@ -1,3 +1,9 @@
+---
+description: >-
+  Smart contract development poses unique challenges and experience has taught
+  us that not all the rules of traditional software apply.
+---
+
 # Task Tracking & Lifecycle
 
 ## \`contract\` Smart Contract Workflow \`is\` General Workflow {...}

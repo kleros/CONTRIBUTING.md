@@ -1,3 +1,7 @@
+---
+description: Read this before hitting the big red button.
+---
+
 # RABd \(+ Deploy\)
 
 Once deployed, smart contract code becomes **immutable**, so you better get it right the first time. This is a very different setting to traditional software development where you can continuously release fixes and enhancements. Although, there are [patterns for upgrading smart contracts](https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns), they are anything but trivial, and can come with their own flaws.
