@@ -8,7 +8,7 @@ Once deployed, smart contract code becomes **immutable**, so you better get it r
 
 The following steps should be taken to minimize risk:
 
-1. [x] Make sure [RAB](reviews-and-bug-bounties.md) has been completed for the contract you are deploying and all the contracts in its inheritance chain.
+1. [x] Make sure [RAB](rab.md) has been completed for the contract you are deploying and all the contracts in its inheritance chain.
 2. [x] Create an issue titled "Deploy &lt;SmartContract&gt;".
 3. [x] Label it with the appropriate priority, appropriate status, and "maintenance" type.
 4. [x] Assign it to the team member tasked with deploying the contract.

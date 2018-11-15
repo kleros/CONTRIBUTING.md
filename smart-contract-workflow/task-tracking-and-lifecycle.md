@@ -8,7 +8,7 @@ description: >-
 
 ## \`contract\` Smart Contract Workflow \`is\` General Workflow {...}
 
-Most of the guidelines of [Task Tracking & Lifecycle](../general-workflow/contributing.md) in the general workflow apply, with one key difference.
+Most of the guidelines of [Task Tracking & Lifecycle](../general-workflow/task-tracking-and-lifecycle.md) in the general workflow apply, with one key difference.
 
 There are no automatic branch deploys, because we do not think you should rely on package managers for production smart contract development and deployment, more on that later. Because of this, it doesn't make sense to have staging or production environments, so all pull requests are made to `master`.
 

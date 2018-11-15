@@ -6,21 +6,21 @@
 
 ## General Workflow
 
-* [Task Tracking & Lifecycle](general-workflow/contributing.md)
-* [Releases](general-workflow/releases-versions-and-changelog.md)
+* [Task Tracking & Lifecycle](general-workflow/task-tracking-and-lifecycle.md)
+* [Releases](general-workflow/releases.md)
 
 ## Smart Contract Workflow
 
-* [Task Tracking & Lifecycle](smart-contract-workflow/contributing.md)
-* [RAB - Review, Audit, Bounty](smart-contract-workflow/reviews-and-bug-bounties.md)
-* [RABd \(+ Deploy\)](smart-contract-workflow/deploying.md)
+* [Task Tracking & Lifecycle](smart-contract-workflow/task-tracking-and-lifecycle.md)
+* [RAB - Review, Audit, Bounty](smart-contract-workflow/rab.md)
+* [RABd \(+ Deploy\)](smart-contract-workflow/rabd.md)
 * [Reporting Vulnerabilities](smart-contract-workflow/reporting-vulnerabilities.md)
 
 ## Code Style & Guidelines
 
 * [Git](code-style-and-guidelines/git.md)
 * [Solidity](code-style-and-guidelines/solidity.md)
-* [Web Languages](code-style-and-guidelines/javascript.md)
+* [Web Languages](code-style-and-guidelines/web-languages.md)
 
 ## License & Code of Conduct
 
