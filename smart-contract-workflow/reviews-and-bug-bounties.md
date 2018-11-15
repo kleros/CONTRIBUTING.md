@@ -74,6 +74,10 @@ The reviewer then does the following:
 2. Waits for the author/s to implement any necessary changes.
 3. Verifies all necessary changes have been implemented and adds their name to the RAB pragma comment's reviewers list, closing the issue.
 
+{% hint style="warning" %}
+Adding your name as a reviewer implies you approve the contract and deem it vulnerability free, to the best of your knowledge.
+{% endhint %}
+
 ### Full Review
 
 The flow for a full review is the same as the one for a pre-review, with the following differences:
