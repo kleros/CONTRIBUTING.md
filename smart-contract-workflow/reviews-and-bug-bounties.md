@@ -70,22 +70,17 @@ Once the author/s of a contract think it is ready, they:
 
 The reviewer then does the following:
 
-1. Creates a pull request titled "chore/pre-review-&lt;smart-contract&gt;", that adds their info to the contract's RAB pragma comment's reviewers list, and closes the issue.
-2. Labels it with the appropriate priority, appropriate status, and "maintenance" type.
-3. Assigns the author/s and adds himself as a reviewer.
-4. Writes their review directly in the pull request or posts a URI that links to it.
-5. Waits for the author/s to implement any necessary changes and push them to the same pull request.
-6. Verifies all necessary changes have been implemented.
-7. Changes the status to the "review needed" status and waits for another team member to approve and merge.
+1. Writes their review directly in a comment on the issue or posts a URI that links to it.
+2. Waits for the author/s to implement any necessary changes.
+3. Verifies all necessary changes have been implemented and adds their name to the RAB pragma comment's reviewers list, closing the issue.
 
 ### Full Review
 
 The flow for a full review is the same as the one for a pre-review, with the following differences:
 
-* "Pre-/pre-" gets removed from the issue and pull request titles.
-* The whole review team gets assigned to the issue and added as reviewers to the pull request.
-* The pull request adds the info of the whole review team to the RAB pragma comment's reviewers list.
-* The whole review team submits their reviews and verifies all necessary changes were implemented.
+* "Pre-/pre-" gets removed from the issue title.
+* The whole review team gets assigned to the issue.
+* The whole review team submits their reviews, verifies all necessary changes were implemented, and adds their name to the RAB pragma comment's reviewers list.
 
 {% hint style="danger" %}
 Reviews are only the first step in securing a contract. A contract should not be deemed production ready at this point. Internal reviews are riddled with inherent drawbacks and a third party audit and bug bounty should always back them up.
@@ -107,13 +102,9 @@ Once the review process is completed, a review team member is assigned with find
 
 The assignee then waits for all the audits to finish and:
 
-1. Creates a pull request titled "chore/audit-&lt;smart-contract&gt;", that adds the auditor/s info to the contract's RAB pragma comment's auditors list, and closes the issue.
-2. Labels it with the appropriate priority, appropriate status, and "maintenance" type.
-3. Assigns the author/s and adds himself as a reviewer.
-4. Posts all of the audits in the pull request.
-5. Waits for the contract author/s to implement any necessary changes and push them to the same pull request.
-6. Verifies all necessary changes have been implemented.
-7. Changes the status to the "review needed" status and waits for another team member to approve and merge.
+1. Posts all of the audits on the issue.
+2. If changes are required, assigns the author/s to the issue and waits for them to be implemented.
+3. Verifies all necessary changes have been implemented and adds the auditor/s to the RAB pragma comment's auditors list, closing the issue.
 
 ## Bounty
 

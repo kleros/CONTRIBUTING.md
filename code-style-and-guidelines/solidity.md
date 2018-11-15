@@ -53,7 +53,7 @@ Abstractions can be made to make front end developers' lives easier. Our [archon
 
 This and the security risks of smart contracts that interact with other smart contracts with complex and stateful interdependencies requires that we take a unique approach and mindset when developing smart contracts. Here are some general guidelines:
 
-* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**: 
+* If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**:
 
   * Verify that the call is authorized. Modifiers can be used for this.
   * Execute state changes.
