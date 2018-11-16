@@ -29,11 +29,11 @@ We propose a standard for keeping track of a contract's flow through RAB that wi
 {% code-tabs-item title="SmartContract.sol" %}
 ```javascript
 /**
- * @authors: <Github username or email list.>
- * @reviewers: <Github username or email list.>
- * @auditors: <Github username, email, or audit program URI list.>
- * @bounties: <Bounty program URI list.>
- * @deployments: <Commit hash@contract address list.> (// For RABd)
+ *  @authors: <Github username or email list.>
+ *  @reviewers: <Github username or email list.>
+ *  @auditors: <Github username, email, or audit program URI list.>
+ *  @bounties: <Bounty program URI list.>
+ *  @deployments: <Commit hash@contract address list.> (// For RABd)
  */
  
  @pragma...
