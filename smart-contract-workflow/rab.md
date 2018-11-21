@@ -51,6 +51,8 @@ The following are valid lists:
 RAB is a never ending process, contracts should never be deemed fully secure.
 {% endhint %}
 
+If a review, audit, bounty, or deployment becomes stale. I.e. the file is modified after the fact. An asterisk should be added to the end of each item in all the lists, like so, `[@githubUsername*, @githubUsername*]`.
+
 ## Review
 
 {% hint style="info" %}
