@@ -57,9 +57,9 @@ This and the security risks of smart contracts that interact with other smart co
 
   * Verify that the call is authorized. Modifiers can be used for this.
   * Execute state changes.
-  * Interact with other accounts \(by making external calls other than `send` and `transfer`\).
+  * Interact with other accounts by making external calls other than `send` and `transfer`.
 
-  This protects the function from being re-entered through the external calls and having some effect running more times than was intended. Note that despite what the official documentation indicates, `send`and `transfer` are not to be counted as interactions as they do not give enough gas to make a callback or change the contract state.
+  This protects the function from being re-entered through the external calls and having some effect running more times than was intended. Note that despite what the official documentation indicates, `send` and `transfer` are not to be counted as interactions as they do not give enough gas to make a callback or change contract state.
 
 * Be aware of **gas consumption**. Smart contracts differ to traditional software where you can "Get it correct the first time, fast the second.", being slow in a smart contract is being incorrect. Out of gas transactions fail and high TX fees can place a huge burden on users.
 * Be OK with **"doing 0"**. A function that sends 0 tokens, gives a penalty of 0%, and/or can't be called again unless 0 seconds pass is fine. Smart contracts should have the minimum amount of code possible and this ties into the next point.
