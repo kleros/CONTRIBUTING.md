@@ -34,6 +34,7 @@ We propose a standard for keeping track of a contract's flow through RAB that wi
  *  @auditors: <Github username, email, or audit program URI list.>
  *  @bounties: <Bounty program URI list.>
  *  @deployments: <Commit hash@contract address list.> (// For RABd)
+ *  @tools: <List of automated tools.>
  */
  
  @pragma...
@@ -118,3 +119,10 @@ Bounties come with all the benefits of third party audits, but usually pay highe
 
 The flow for bounties is just like the one for audits, but "A/audit" gets replaced by "B/bounty", and auditors are replaced by bounty campaigns or programs.
 
+## Automated Tools \(Optional\)
+
+Automated vulnerability tools can be used as well to add an additional layer of security. 
+
+Automated tools often have false positives, pointing out issues that are only technically correct. The better tools will not have many of those, however, because of these false positives it is advised to use automated tools after pre-review has been done and the most obvious issues are fixed, so the report is less cluttered and easier to process.
+
+Tool's reports are handled just like regular reviews. After making a report the tool should be added to the "tools" comment of RAB pragma. And when modifications are done without a report, the tool should be marked with an asterisk.
