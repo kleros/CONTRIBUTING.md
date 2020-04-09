@@ -119,7 +119,7 @@ Bounties come with all the benefits of third party audits, but usually pay highe
 
 The flow for bounties is just like the one for audits, but "A/audit" gets replaced by "B/bounty", and auditors are replaced by bounty campaigns or programs.
 
-## Automated Tools
+## Automated Tools \(Optional\)
 
 Automated vulnerability tools can be used as well to add an additional layer of security. 
 
