@@ -125,4 +125,4 @@ Automated vulnerability tools can be used as well to add an additional layer of 
 
 Automated tools often have false positives, pointing out issues that are only technically correct. The better tools will not have many of those, however, because of these false positives it is advised to use automated tools after pre-review has been done and the most obvious issues are fixed, so the report is less cluttered and easier to process.
 
-Tool's reports are handled just like regular reviews. After making a report the tool should be added to the "tools" comment of RAB pragma. And when modifications are done without a report, the tool should be marked with an asterisk.
+Tool's reports are handled just like regular reviews. After making a report the tool should be added to the "tools" comment of RAB pragma. And when modifications are done without a report, the tool should be marked with an asterisk. 
