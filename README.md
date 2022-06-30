@@ -1,7 +1,6 @@
----
-description: >-
-  Welcome to the "centralized" contributing guide for all software pertaining to
-  Kleros.
+
+ **OBSOLETE: SUPERSEDED BY https://kleros.gitbook.io/docs/contribution-guidelines/overview**
+
 ---
 
 # Introduction
